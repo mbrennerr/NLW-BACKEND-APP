@@ -8,7 +8,7 @@ app.get('/games', (req: Request, res: Response) => {
 	return res.json([]);
 });
 app.post('/ads', (req: Request, res: Response) => {
-	return res.json([]);
+	return res.status(201).json([]);
 });
 app.get('/ads', (req: Request, res: Response) => {
 	return res.json([
